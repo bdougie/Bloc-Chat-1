@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+    
+<body>
+    <!-- Add Firebase to your web app !-->
+    <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCqQ99pmJhI4jITx-i8P2i_PWMyvgdw8_s",
+        authDomain: "bloc-chat-e89e5.firebaseapp.com",
+        databaseURL: "https://bloc-chat-e89e5.firebaseio.com",
+        storageBucket: "bloc-chat-e89e5.appspot.com",
+        messagingSenderId: "17979164531"
+      };
+      firebase.initializeApp(config);
+    </script>
+    
+    <script src="/scripts/app.js"></script>
+    
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
+    
+    
+</body>
+</html>
