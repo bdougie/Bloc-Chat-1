@@ -1,5 +1,5 @@
 (function() {
-     function HomeCtrl(Room) {
+     function RoomCtrl(Room) {
          this.rooms = Room.all;
 
      }

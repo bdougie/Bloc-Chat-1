@@ -1,5 +1,20 @@
-<h1>Bloc Chat</h1>
+<div class="container room-table well">
+    <div class="row">
 
-<ul ng-repeat="room in room.rooms">
-    <li>{{room.$id}}</li>
-</ul>
+    <div class="col-xs-12 col-sm-6 col-md-8 sidebar">
+            <h1>Bloc Chat</h1>
+
+            <div class="well">Basic Well</div>
+
+
+            <div class = "room-list">
+                <ul ng-repeat="room in room.rooms">
+                    <li>{{room.$id}}</li>
+                </ul>
+            </div>
+                                                  
+    </div>
+    <div class="col-xs-6 col-md-4 room-message-section">Messages go here</div>
+  </div>
+</div>
+
